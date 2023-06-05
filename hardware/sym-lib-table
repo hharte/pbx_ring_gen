@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ac125a_dtmf")(type "KiCad")(uri "${KIPRJMOD}/ac125a_dtmf.kicad_sym")(options "")(descr ""))
+)
