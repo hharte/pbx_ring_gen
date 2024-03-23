@@ -1,4 +1,5 @@
 *-bak
+*.lck
 hardware/_autosave*
 hardware/pbx_ring_gen-backups/
 hardware/fp-info-cache
