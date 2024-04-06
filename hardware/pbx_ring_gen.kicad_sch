@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "PBX Ring Generator")
-		(date "2024-03-23")
-		(rev "2")
+		(date "2024-04-06")
+		(rev "3")
 		(company "Howard M. Harte")
 		(comment 1 "https://github.com/hharte/pbx_ring_gen")
 	)
@@ -2710,10 +2710,10 @@
 		)
 		(uuid "48c87ccb-908a-497a-b570-62083d36dc49")
 	)
-	(text_box "PBX GRD:   0V\nPBX BATT: -24VDC\nRING OUT1: Use for isolated output only.\nRING OUT2: Use for DC-Biased (referenced to PBX GRD.)\n"
+	(text_box "PBX GRD:   0V\nPBX BATT: -24VDC\nRING OUT1 / OUT2: isolated output.\nRING OUT2: DC-Biased output (referenced to PBX GRD)"
 		(exclude_from_sim no)
-		(at 165.1 63.5 0)
-		(size 33.02 15.24)
+		(at 165.1 66.04 0)
+		(size 38.1 11.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -2888,7 +2888,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 630mA"
+		(property "Value" "Fuse 1.5A"
 			(at 60.96 86.2076 90)
 			(effects
 				(font
@@ -2923,7 +2923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "F7846CT-ND"
+		(property "Digi-Key_PN" "F1851CT-ND"
 			(at 60.96 88.9 90)
 			(effects
 				(font
@@ -2932,7 +2932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0251.630MAT1L"
+		(property "MPN" " 025101.5MAT1L"
 			(at 60.96 88.9 90)
 			(effects
 				(font
@@ -3027,18 +3027,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2abf369c-d0f5-4a67-a3c7-1d5018b5b86f")
 		(property "Reference" "C4"
-			(at 106.6863 101.6 90)
+			(at 104.648 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.047uF"
-			(at 106.6863 104.14 90)
+		(property "Value" "0.047uF / 50V"
+			(at 106.68 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3115,7 @@
 		(fields_autoplaced yes)
 		(uuid "308adb25-42b3-4477-a887-6ad38bba1d33")
 		(property "Reference" "J2"
-			(at 193.04 84.455 0)
+			(at 193.04 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,8 +3123,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 193.04 86.995 0)
+		(property "Value" "TBP01R1-508-04BE"
+			(at 193.04 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 630mA"
+		(property "Value" "Fuse 1.5A"
 			(at 60.96 76.0476 90)
 			(effects
 				(font
@@ -3609,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0251.630MAT1L"
+		(property "MPN" " 025101.5MAT1L"
 			(at 60.96 78.74 90)
 			(effects
 				(font
@@ -3618,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "F7846CT-ND"
+		(property "Digi-Key_PN" "F1851CT-ND"
 			(at 60.96 78.74 90)
 			(effects
 				(font
@@ -4018,18 +4017,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da8e93c1-d0d3-44d5-8227-8da61461ac8e")
 		(property "Reference" "C3"
-			(at 106.6863 93.98 90)
+			(at 104.648 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.047uF"
-			(at 106.6863 96.52 90)
+		(property "Value" "0.047uF / 50V"
+			(at 106.68 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4162,7 @@
 		(at 144.78 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e63748e9-a9b4-4c79-8c2f-c3d3a021a863")
@@ -4338,8 +4336,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF / 35V"
-			(at 91.44 76.2 0)
+		(property "Value" "100uF / 50V"
+			(at 88.646 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4372,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "50ZLH470MEFC12.5X20"
+		(property "MPN" "50ZLH100MEFCTA8X11.5"
 			(at 96.52 83.82 0)
 			(effects
 				(font
@@ -4383,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "1189-2329-ND"
+		(property "Digi-Key_PN" "1189-50ZLH100MEFCTA8X11.5CT-ND"
 			(at 96.52 83.82 0)
 			(effects
 				(font

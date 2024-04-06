@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PBX Ring Generator")
-		(date "2023-06-17")
-		(rev "2")
+		(date "2024-04-06")
+		(rev "3")
 		(company "Howard M. Harte")
 		(comment 1 "https://github.com/hharte/pbx_ring_gen")
 	)
@@ -4339,7 +4339,7 @@
 				)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "0.047uF / 50V"
 			(at 2.5 2.85 0)
 			(layer "F.Fab")
 			(uuid "2cc34682-5236-4d5f-8d04-555f8f140894")
@@ -5057,10 +5057,10 @@
 	(footprint "Library:CUI_TBP01R1-508-04BE"
 		(layer "F.Cu")
 		(uuid "95ca482a-db90-419c-8755-cf0d4b124bfa")
-		(at 146.304 53.5755)
+		(at 146.304 52.07)
 		(descr "4-Terminal Block")
 		(property "Reference" "J2"
-			(at -5.334 -8.4905 0)
+			(at -5.334 0 0)
 			(layer "F.SilkS")
 			(uuid "ed268d7a-409b-4ec8-8065-4deaf9979065")
 			(effects
@@ -5070,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "TBP01R1-508-04BE"
 			(at 10.9 3.361 0)
 			(layer "F.Fab")
 			(uuid "03ef24dc-98f2-4a74-a2c9-d208becff3e4")
@@ -5156,14 +5156,11 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/308adb25-42b3-4477-a887-6ad38bba1d33")
-		(sheetname "Root")
-		(sheetfile "pbx_ring_gen.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -3.34 -10)
-			(end 18.58 -10)
+			(start -3.34 -8.5)
+			(end 18.58 -8.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -5173,7 +5170,7 @@
 		)
 		(fp_line
 			(start -3.34 2)
-			(end -3.34 -10)
+			(end -3.34 -8.5)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -5182,7 +5179,7 @@
 			(uuid "a55bf163-a7cd-41dc-839e-9ff72de382c3")
 		)
 		(fp_line
-			(start 18.58 -10)
+			(start 18.58 -8.5)
 			(end 18.58 2)
 			(stroke
 				(width 0.127)
@@ -5477,7 +5474,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 630mA"
+		(property "Value" "Fuse 1.5A"
 			(at 6.35 2.72 90)
 			(layer "F.Fab")
 			(uuid "d92659b2-5821-41b0-8290-059b39db6387")
@@ -5524,7 +5521,7 @@
 				)
 			)
 		)
-		(property "MPN" "0251.630MAT1L"
+		(property "MPN" " 025101.5MAT1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5537,7 +5534,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "F7846CT-ND"
+		(property "Digi-Key_PN" "F1851CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5775,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 630mA"
+		(property "Value" "Fuse 1.5A"
 			(at 6.35 2.72 90)
 			(layer "F.Fab")
 			(uuid "5c73ee87-c5b3-4ee5-b7c3-e889d51cb7a2")
@@ -5822,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "F7846CT-ND"
+		(property "Digi-Key_PN" "F1851CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5835,7 +5832,7 @@
 				)
 			)
 		)
-		(property "MPN" "0251.630MAT1L"
+		(property "MPN" " 025101.5MAT1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6185,7 +6182,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF / 35V"
+		(property "Value" "100uF / 50V"
 			(at 2.5 7.5 0)
 			(layer "F.Fab")
 			(uuid "d5f46f08-03de-43fd-abb2-c59b350ce25a")
@@ -6232,7 +6229,7 @@
 				)
 			)
 		)
-		(property "MPN" "50ZLH470MEFC12.5X20"
+		(property "MPN" "50ZLH100MEFCTA8X11.5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6245,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "1189-2329-ND"
+		(property "Digi-Key_PN" "1189-50ZLH100MEFCTA8X11.5CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8716,7 +8713,7 @@
 				)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "0.047uF / 50V"
 			(at 2.5 2.85 0)
 			(layer "F.Fab")
 			(uuid "01724516-f325-4c4c-a9f8-4769bfcfbd25")
@@ -9291,7 +9288,7 @@
 	(footprint "Library:Deena"
 		(layer "B.Cu")
 		(uuid "3ab3bf75-1c9b-401b-9715-fec5e6aabfe1")
-		(at 158.75 69.85 180)
+		(at 141.58 107.18 180)
 		(property "Reference" "Deena"
 			(at 0 -8.89 0)
 			(layer "B.SilkS")
@@ -9875,7 +9872,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP1"
-			(at 0 2.54 180)
+			(at 2.398 0 180)
 			(layer "B.SilkS")
 			(uuid "a15c63e8-c618-473b-8d96-bf6283058e9b")
 			(effects
@@ -9939,7 +9936,7 @@
 		(sheetname "Root")
 		(sheetfile "pbx_ring_gen.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -10053,8 +10050,8 @@
 		)
 	)
 	(gr_line
-		(start 132.08 143.002)
-		(end 132.08 43.18)
+		(start 132.08 140.431185)
+		(end 132.08 45.750815)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -10062,9 +10059,53 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-00005ebe1bb8")
 	)
+	(gr_arc
+		(start 134.650815 143.002)
+		(mid 132.832975 142.249025)
+		(end 132.08 140.431185)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "22ee25b7-57d3-4799-81dd-591981a8fb8b")
+	)
+	(gr_arc
+		(start 176.548051 140.443949)
+		(mid 175.798815 142.252764)
+		(end 173.99 143.002)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4867c338-5355-46d4-86ad-dff1d832ad58")
+	)
+	(gr_arc
+		(start 132.08 45.750815)
+		(mid 132.829236 43.942)
+		(end 134.638051 43.192764)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "535d476b-3403-4be9-9425-7e0b35c63fe4")
+	)
+	(gr_arc
+		(start 173.959185 43.192764)
+		(mid 175.768 43.942)
+		(end 176.517236 45.750815)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "90e45579-5bdb-4cf9-8105-ff72791155ad")
+	)
 	(gr_line
-		(start 132.08 43.18)
-		(end 176.53 43.18)
+		(start 134.638051 43.192764)
+		(end 173.959185 43.192764)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -10073,8 +10114,8 @@
 		(uuid "c942ee22-6edf-488a-a5fe-616d607f5449")
 	)
 	(gr_line
-		(start 176.53 43.18)
-		(end 176.53 143.002)
+		(start 176.517236 45.750815)
+		(end 176.548051 140.443949)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -10083,8 +10124,8 @@
 		(uuid "e3e34bc9-b328-4d87-b5d8-b2af1f377b87")
 	)
 	(gr_line
-		(start 176.53 143.002)
-		(end 132.08 143.002)
+		(start 173.99 143.002)
+		(end 134.650815 143.002)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -10092,8 +10133,8 @@
 		(layer "Edge.Cuts")
 		(uuid "f271717c-8284-416b-8165-6f3bbf27302c")
 	)
-	(gr_text "PBX GRD:   0V\nPBX BATT: -24VDC\nRING OUT1: Use for isolated output only.\nRING OUT2: Use for DC-Biased (referenced to PBX GRD)"
-		(at 175.895 60.96 0)
+	(gr_text "PBX GRD:   0V\nPBX BATT: -24VDC\nRING OUT1 / OUT2: isolated output.\nRING OUT2: DC-Biased output\n            (referenced to PBX GRD)"
+		(at 165.08 72.18 0)
 		(layer "B.SilkS")
 		(uuid "075bb77e-73e9-4a1b-ac79-376d17541bfa")
 		(effects
@@ -10104,8 +10145,80 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "For DC-biased output:\n1. Cut jumper JP1\n2. Install C1\n3. Install R2, R3\nOutput is RING OUT2,\nreferenced to GRD."
-		(at 151.13 74.93 0)
+	(gr_text "DC IN"
+		(at 151.08 55.68 -0)
+		(layer "B.SilkS")
+		(uuid "30ea5f17-7b23-40ab-9457-496a904d3ced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "2"
+		(at 162.08 57.18 -0)
+		(layer "B.SilkS")
+		(uuid "3ea6c0a7-f607-4717-af1f-8bfe04f3b3d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "F1, F2:\n1.5A"
+		(at 170.08 60.68 0)
+		(layer "B.SilkS")
+		(uuid "43530d8d-bddc-4f0d-bc82-bedc56e49c80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "RING  OUT"
+		(at 163.08 55.68 -0)
+		(layer "B.SilkS")
+		(uuid "46fd88a3-5f53-4446-a4bf-ef1600cec34b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GRD"
+		(at 148.08 57.18 -0)
+		(layer "B.SilkS")
+		(uuid "6a553b7b-5ff1-4a26-a1db-fadbe7ebfdf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "1"
+		(at 157.08 57.18 0)
+		(layer "B.SilkS")
+		(uuid "7ae6bc58-c575-4921-af84-9437ddc255a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "For DC-biased output:\n1. Cut jumper JP1 -->\n2. Install C1\n3. Install R2, R3\nOutput is RING OUT2,\nreferenced to GRD."
+		(at 158.242 85.09 0)
 		(layer "B.SilkS")
 		(uuid "927ad870-9b3d-4002-a49e-a7c56c25bd5f")
 		(effects
@@ -10117,7 +10230,7 @@
 		)
 	)
 	(gr_text "J1 - Options\nFrequency Select:\n20Hz - Both Open\n16Hz - 1-2 shorted\n25Hz - 3-4 shorted\n50Hz - 1-2, 3-4 shorted\n\nVoltage Select:\nDefault: 75Vrms@5REN\nTo adjust, Populate R1 according\nto PCR-SIN06 Datasheet and:\n75-86Vrms - 5-6 shorted\n45-75Vrms - 7-8 shorted"
-		(at 165.1 120.65 0)
+		(at 166.37 124.46 0)
 		(layer "B.SilkS")
 		(uuid "d323a523-14cf-45c4-810a-65e96bf2b540")
 		(effects
@@ -10128,8 +10241,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PBX Ring Generator\ngithub.com/hharte/pbx_ring_gen\nIssue 2"
-		(at 166.37 49.53 0)
+	(gr_text "PBX Ring Generator\ngithub.com/hharte/pbx_ring_gen\nIssue 3"
+		(at 166.37 99.06 0)
 		(layer "B.SilkS")
 		(uuid "e388a946-b681-4da7-8219-8fe1c7e33128")
 		(effects
@@ -10140,7 +10253,31 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PBX Ring Generator\ngithub.com/hharte/pbx_ring_gen\nIssue 2"
+	(gr_text "-BAT"
+		(at 153.58 57.18 -0)
+		(layer "B.SilkS")
+		(uuid "f9ff6c5f-5d45-404f-8ec5-59376c1fe01b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RING  OUT"
+		(at 155.08 55.68 0)
+		(layer "F.SilkS")
+		(uuid "68fdd9e0-033b-4db9-b5f2-b063e23c1182")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PBX Ring Generator\ngithub.com/hharte/pbx_ring_gen\nIssue 3"
 		(at 137.16 92.71 0)
 		(layer "F.SilkS")
 		(uuid "7a515e1a-9a86-49f3-9211-b7f6a2b8728d")
@@ -10152,8 +10289,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RING\nOUT1"
-		(at 154.94 59.055 0)
+	(gr_text "1"
+		(at 156.08 57.18 0)
 		(layer "F.SilkS")
 		(uuid "8436d79f-410c-4483-8c9c-802e2f2fddf7")
 		(effects
@@ -10176,8 +10313,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RING\nOUT2"
-		(at 160.02 59.055 0)
+	(gr_text "2"
+		(at 161.08 57.18 0)
 		(layer "F.SilkS")
 		(uuid "a75d6238-30a0-4865-be30-a5ec2f706087")
 		(effects
@@ -10189,9 +10326,45 @@
 		)
 	)
 	(gr_text "GRD"
-		(at 144.78 58.42 0)
+		(at 144.78 57.15 0)
 		(layer "F.SilkS")
 		(uuid "cbb52396-9882-4eb8-ac8b-a4cb8e7c0eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "F1, F2:\n1.5A"
+		(at 165.481 52.07 0)
+		(layer "F.SilkS")
+		(uuid "dccdc33b-88e4-4630-a4ac-f11e3e5d8d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-BAT"
+		(at 148.58 57.18 0)
+		(layer "F.SilkS")
+		(uuid "deefd6f3-1070-4df5-ba0f-e02ed23e7698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DC IN"
+		(at 146.58 55.68 0)
+		(layer "F.SilkS")
+		(uuid "ee7476a0-a4e0-4ce7-a019-a767a5e69cf7")
 		(effects
 			(font
 				(size 1 1)
@@ -10204,18 +10377,6 @@
 		(at 133.985 128.905 90)
 		(layer "F.SilkS")
 		(uuid "efd96688-366a-431a-ab6c-b90ef8c006c6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "-BAT"
-		(at 149.225 58.42 0)
-		(layer "F.SilkS")
-		(uuid "f9ff6c5f-5d45-404f-8ec5-59376c1fe01b")
 		(effects
 			(font
 				(size 1 1)
@@ -10698,29 +10859,141 @@
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
-	(segment
-		(start 146.304 51.816)
-		(end 146.304 53.5755)
-		(width 1)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "21a1da9b-1e03-4477-bffe-f1d0b1a20dbf")
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "1624551a-f3a6-40aa-8250-3f392793386d")
+		(pts
+			(xy 164.884 43.8) (xy 176.53 43.307)
+		)
+		(height -10.272)
+		(orientation 0)
+		(gr_text "11.6460 mm"
+			(at 170.707 32.378 0)
+			(layer "Dwgs.User")
+			(uuid "1624551a-f3a6-40aa-8250-3f392793386d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(segment
-		(start 171.45 53.34)
-		(end 166.37 48.26)
-		(width 1)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "2ab55fcd-d51b-4191-aa5c-b12322ba9091")
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9afdae9a-2390-4836-852b-5b348f725287")
+		(pts
+			(xy 153.924 43.8) (xy 132.08 43.18)
+		)
+		(height -14.844)
+		(orientation 0)
+		(gr_text "21.8440 mm"
+			(at 143.002 27.806 0)
+			(layer "Dwgs.User")
+			(uuid "9afdae9a-2390-4836-852b-5b348f725287")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(segment
-		(start 149.86 48.26)
-		(end 146.304 51.816)
-		(width 1)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "50fadcea-d2ec-4e87-a534-2e46566d083e")
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "ae98d7c3-69c5-4457-8655-01211f31f1cc")
+		(pts
+			(xy 142.964 43.8) (xy 164.884 43.8)
+		)
+		(height -19.162)
+		(orientation 0)
+		(gr_text "21.9200 mm"
+			(at 153.924 23.488 0)
+			(layer "Dwgs.User")
+			(uuid "ae98d7c3-69c5-4457-8655-01211f31f1cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "e0946bce-4868-4adf-b16e-cc3c65e2e796")
+		(pts
+			(xy 142.964 43.8) (xy 132.08 43.18)
+		)
+		(height -10.668)
+		(orientation 0)
+		(gr_text "10.8840 mm"
+			(at 137.522 31.982 0)
+			(layer "Dwgs.User")
+			(uuid "e0946bce-4868-4adf-b16e-cc3c65e2e796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 172.72 53.34)
@@ -10728,39 +11001,71 @@
 		(width 1)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "6d08cb0b-830d-4c60-b6c5-d7c9e0748035")
+		(uuid "6c1ca4d5-fcd5-4628-bbee-cfd1a1722513")
 	)
 	(segment
-		(start 166.37 48.26)
-		(end 149.86 48.26)
+		(start 163.83 45.72)
+		(end 149.225 45.72)
 		(width 1)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "f27b173c-9c09-49ab-8687-9d15613a02c9")
+		(uuid "6ff4329c-f47a-4d2e-9536-010cf6122c0c")
 	)
 	(segment
-		(start 165.1 50.8)
-		(end 154.1595 50.8)
+		(start 146.304 48.641)
+		(end 146.304 52.07)
 		(width 1)
 		(layer "B.Cu")
-		(net 2)
-		(uuid "71951d80-6836-4d04-9ad2-4be34831b252")
+		(net 1)
+		(uuid "95cd00e4-9e9b-4f40-a082-1898f0c1bea2")
 	)
 	(segment
-		(start 154.1595 50.8)
-		(end 151.384 53.5755)
+		(start 149.225 45.72)
+		(end 146.304 48.641)
 		(width 1)
 		(layer "B.Cu")
-		(net 2)
-		(uuid "a46ce86a-d61a-4e3c-90ea-50862e9c6cfe")
+		(net 1)
+		(uuid "985d585d-45a1-44ed-9cce-b7c294ae84fe")
+	)
+	(segment
+		(start 171.45 53.34)
+		(end 163.83 45.72)
+		(width 1)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "c8b6324f-0245-4722-afbd-f40f185de36d")
 	)
 	(segment
 		(start 167.64 53.34)
-		(end 165.1 50.8)
+		(end 162.56 48.26)
 		(width 1)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "b067a586-7d0f-4313-b974-b2205674b242")
+		(uuid "02ebd9b7-ae29-4767-8854-12265b0678cc")
+	)
+	(segment
+		(start 162.56 48.26)
+		(end 152.4 48.26)
+		(width 1)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "2bf3b0ec-0eed-4e28-8f29-07ebff1af1cd")
+	)
+	(segment
+		(start 152.4 48.26)
+		(end 151.384 49.276)
+		(width 1)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "93c7d081-3d99-4aac-bda3-2cd1a61ca609")
+	)
+	(segment
+		(start 151.384 49.276)
+		(end 151.384 52.07)
+		(width 1)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "a0cb43fa-3a33-4188-a874-b0e202e602d7")
 	)
 	(segment
 		(start 167.64 134.62)
@@ -10923,20 +11228,12 @@
 		(uuid "eec31328-d404-4b5a-9dd3-31fd3ac77746")
 	)
 	(segment
-		(start 156.464 55.626)
-		(end 156.464 53.5755)
-		(width 1)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "2be50f28-8e61-4dfd-86e1-10c4bef2ba26")
-	)
-	(segment
 		(start 148.59 63.5)
 		(end 156.464 55.626)
 		(width 1)
 		(layer "B.Cu")
 		(net 9)
-		(uuid "75b1d375-8588-49cc-bcdb-7d84012f6beb")
+		(uuid "18149198-f575-41d8-b725-4943d319aa4e")
 	)
 	(segment
 		(start 172.72 88.481041)
@@ -10945,6 +11242,14 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "98096914-63e7-4d4b-a5dd-80434eb7cb11")
+	)
+	(segment
+		(start 156.464 55.626)
+		(end 156.464 52.07)
+		(width 1)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "c7cbb8c8-ea05-4f68-8593-00f035e85c2b")
 	)
 	(segment
 		(start 172.72 96.52)
@@ -11232,15 +11537,23 @@
 		(width 1)
 		(layer "B.Cu")
 		(net 13)
-		(uuid "39adfb45-42ae-4fa8-85ca-a0da63b43b39")
+		(uuid "3cfaefbf-9e49-4b85-bf22-3fbc24de1e4c")
 	)
 	(segment
-		(start 138.43 69.85)
-		(end 151.13 69.85)
+		(start 161.544 59.436)
+		(end 161.544 52.07)
 		(width 1)
 		(layer "B.Cu")
 		(net 13)
-		(uuid "569de59e-4502-478d-b87c-e7e5d94f0cd8")
+		(uuid "51f2eb0a-1620-479a-8106-87691e2f4576")
+	)
+	(segment
+		(start 151.13 69.85)
+		(end 161.544 59.436)
+		(width 1)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "548d488b-3793-45a5-a8dd-6dc25ba144ec")
 	)
 	(segment
 		(start 138.43 77.47)
@@ -11251,20 +11564,12 @@
 		(uuid "6e7a45b9-e84e-46aa-bb0f-0e68de464a1e")
 	)
 	(segment
-		(start 161.544 59.436)
-		(end 161.544 53.5755)
+		(start 138.43 69.85)
+		(end 151.13 69.85)
 		(width 1)
 		(layer "B.Cu")
 		(net 13)
-		(uuid "d426aa0f-4dcf-46d4-9c93-b40b7c88f315")
-	)
-	(segment
-		(start 151.13 69.85)
-		(end 161.544 59.436)
-		(width 1)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "db061778-cf4e-4f5b-ae4f-d4a64db1db16")
+		(uuid "b7c20d43-b3f3-44fe-b8cf-c38982771688")
 	)
 	(segment
 		(start 137.16 96.52)
